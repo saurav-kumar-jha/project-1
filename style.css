@@ -1,0 +1,228 @@
+body{
+    background-color: #ECEFF1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color: #c3c7c9;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+nav{
+    height:8vh;
+    width: 100vw;
+    background-color: #ffffff;
+    margin-bottom: 1px;
+}
+.nav{
+    display: flex;
+    max-width:90vw ;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.navbar img{
+    height:25px;
+    width: 25px;
+
+}
+.navbar ul{
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+    height: 24px;
+    width: 51px;
+    line-height: 24px;
+}
+.navbar li , .footer-ul li{
+    list-style: none;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #808283;
+}
+.navbar li a:hover{
+    color: #3f4041;
+}
+.navbtn{
+    height: 32px;
+    width: 92px;
+    
+}
+.btn{
+    height: 32px;
+    width: 84px;
+    margin-left: 8px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    color: #ffa116;
+    background-color: #fdbb585b;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: "Varela Round",sans-serif;
+}
+.btn:hover{
+    background-color: #ffa21660;
+}
+
+
+/* main css start here............................................................................................................................ */
+.main-form{
+    height: auto;
+    width: 25vw;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 12px 20px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 ;
+}
+.main-form input{
+    height: 30px;
+    width: 85%;
+    border: 1px solid rgb(156, 156, 156);
+    margin: 5px 0 ;
+    border-radius: 4px;
+    padding: 5px 10px;
+    outline: none;
+}
+.main-form input:hover{
+    border: 1px solid rgba(0, 0, 0, 0.568);
+}
+.main-form input:focus{
+    box-shadow: 2px 2px 1px rgba(238, 170, 43, 0.671),-2px -2px 1px rgba(238, 170, 43, 0.712) ;
+    border: 1px solid rgba(0, 0, 0, 0.671);
+}
+.verify{
+    height: 63px;
+    width: 80%;
+    border: 1px solid #808283;
+    border-radius: 4px;
+}
+.form-btn button{
+    height: 40px;
+    width: 92%;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background-color: #405b68;
+    color: white;
+    font-family: "Valera Round",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.form-btn button:hover{
+    background-color: #627077;
+}
+.form-p p{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    margin: 7px 0;
+}
+.span{
+    color: #546E7A;
+}
+.icon {
+    height:40px ;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.icon i{
+    height: 22px;
+    width: 22px;
+    margin: 10px 8px;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 50%;
+    color: #c4b1b1;
+}
+.fa-linkedin:hover,.fa-facebook:hover{
+    color: rgb(35, 35, 90);
+}
+.fa-github:hover{
+    color: rgb(75, 7, 18);
+}
+
+
+
+
+/* footer css start here............................................................................................................... */
+
+
+footer{
+    height: auto;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 1px;
+}
+.footer{
+    max-width: 90vw;
+    margin:0  auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+
+}
+.footer-ul,.footer-ul ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.footer-ul ul{
+    gap: 10px;
+    margin-left: -5px;
+    justify-content: center;
+    
+}
+.footer-ul li a{
+    color:rgb(65, 65, 65) ;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+}
+.footer-ul li a:hover,.footer-region a:hover{
+    text-decoration: underline;
+}
+.dot{
+    height: 10px;
+    width: 1px;
+    background-color: #c4b1b16c;
+}
+.footer-region{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-region img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.footer-region a{
+    text-decoration: none;
+    color:#202020;
+    font-size: 13px;
+    font-family: "Valera Round",sans-serif;
+    margin-left: 7px;
+    margin-right: 12px;
+}
+::-webkit-scrollbar{
+    width: 4px;
+}
